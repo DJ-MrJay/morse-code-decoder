@@ -62,4 +62,5 @@ puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..
 # Testing
 puts decode_char('.-') #=> A
 puts decode_word('-- -.--') # => MY
-puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...') # => A BOX FULL OF RUBIES
+puts decode_message('.-   -... --- -..-   ..-. ..- .-.. .-..   --- ..-.   .-. ..- -... .. . ...')
+# => A BOX FULL OF RUBIES
